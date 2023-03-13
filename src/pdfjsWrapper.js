@@ -65,6 +65,7 @@ export default function(PDFJS) {
 		this.destroy = function() {
 
 			if ( pdfDoc === null )
+        pendingOperation = Promise.resolve();
 				return;
 
 			// Aborts all network requests and destroys worker.
