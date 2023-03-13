@@ -1,5 +1,5 @@
 {
-  "name": "vue-pdf",
+  "name": "vue-pdf-password-fix",
   "version": "4.2.0",
   "description": "vue.js pdf viewer",
   "main": "src/vuePdfNoSss.vue",
